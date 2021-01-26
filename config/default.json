@@ -1,4 +1,6 @@
 {
     "mongoURI" : "mongodb://127.0.0.1:27017/devgram",
-    "JWTKEY" : "devgramtoken"
+    "JWTKEY" : "devgramtoken",
+    "githubClientId" : "d40e87f4bba72ebea3e7",
+    "GITHUBKEY" : "af2ebf5304390c75d04f2e6565f8276c79ef3413"
 } 
