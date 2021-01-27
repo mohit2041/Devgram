@@ -150,7 +150,7 @@ router.get(
         } catch (err) {
             // if id is not the type of ObjectId we want the message 'profile not found'
             if(err.kind == 'ObjectId'){
-                return res.status(400).json({ msg: 'Profile not found' });
+                return res.status(400).json({ msg: 'Profile not found,check ProfileID is correct?' });
             }
 
             console.error(err.message);
